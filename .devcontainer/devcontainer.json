@@ -1,0 +1,54 @@
+{
+    "name": "dapps-tutorial",
+    "dockerComposeFile": [
+        "docker-compose.yml"
+    ],
+    "service": "dapps-tutorial-app",
+    "workspaceFolder": "/home/node/dapps-tutorial",
+    "forwardPorts": [
+        13040
+    ],
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.formatOnSave": true,
+                "typescript.format.enable": true,
+                "json.format.enable": true,
+                "quokka.showStartViewOnFeatureRelease": false,
+                "cSpell.ignorePaths": [
+                    "package-lock.json",
+                    "node_modules",
+                    "vscode-extension",
+                    ".git/objects",
+                    ".vscode",
+                    ".vscode-insiders"
+                ],
+                "cSpell.ignoreWords": [
+                    "dbaeumer",
+                    "rvest",
+                    "pmneo",
+                    "tsimporter",
+                    "kisstkondoros",
+                    "codemetrics",
+                    "stringham",
+                    "mikestead",
+                    "quokka",
+                    "nomicfoundation",
+                    "JuanBlanco"
+                ]
+            },
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "rvest.vs-code-prettier-eslint",
+                "streetsidesoftware.code-spell-checker",
+                "aaron-bond.better-comments",
+                "pmneo.tsimporter",
+                "kisstkondoros.vscode-codemetrics",
+                "stringham.move-ts",
+                "mikestead.dotenv",
+                "WallabyJs.quokka-vscode",
+                "JuanBlanco.solidity"
+            ]
+        }
+    }
+}
